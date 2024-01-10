@@ -1,5 +1,5 @@
 # Crunchyroll not working with MPV
-This is how to get Crunchyroll to work with MPV after installing the basic MPV, yt-dlp, and anime4k setup. For this install I used '--cookies-from-broswer' instead since '--cookies' might not work. I would recommend switch over to it. look here for a example its on like 5, be sure to replace firefox with your browser [link](#updating-yt-dlp-conf-file) 
+This is how to get Crunchyroll to work with MPV after installing the basic MPV, yt-dlp, and anime4k setup. For this install I used '--cookies-from-broswer' instead since '--cookies' might not work. I would recommend switch over to it. look here for a example its on line 5, be sure to replace firefox with your browser. [link](#the-file-should-look-something-like-this) 
 [This is for chrome](#getting-user-agent-from-chrome)
 [This is for firefox](#getting-user-agent-from-firefox)
 
@@ -32,7 +32,7 @@ now that you have done this three step head over to [Update yt-dlp.conf](#updati
 ##  Updating yt-dlp conf file
 4. go into you yt-dlp.conf file that is the the main MPV folder in your program files if that is were you installed it.
 5. replace the existing line that starts with `--user-agent` make sure to keep the `--user-agent` and add `"` around the user agent like how it was before
-the file should look something like this.
+###### the file should look something like this
 !!! note I used firefox for this example but switch it for the browser you got your user agent from.
 ```
 --all-sub
